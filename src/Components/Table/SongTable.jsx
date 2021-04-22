@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 const SongTable = (props) => {
     return (
         <table className="table">
             <thead>
                 <tr>
-                    <th>Title</th>
+                    <th>Title</th> 
                     <th>Artist</th>
                     <th>Album</th>
                     <th>Genre</th>
