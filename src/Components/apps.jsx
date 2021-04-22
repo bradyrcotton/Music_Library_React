@@ -35,11 +35,11 @@ class App extends Component {
         )
     }
    
-    async addNewSong(song){ 
-        debugger;
-        await axios.post('http://127.0.0.1:8000/music/', song)
+   async addNewSong(song){ 
+       console.log(song)
+       await axios.post('http://127.0.0.1:8000/music/', song)
         this.getAllSongs();
-        
+
     }
 
     async deleteSong(songId){
