@@ -9,7 +9,9 @@ import SongCreator from './SongCreator/songCreator';
 
 class App extends Component {
     state = {
-        songs: []
+        songs: [],
+        sortValue: '',
+        inputValue: ''
     }
 
    
@@ -46,7 +48,7 @@ class App extends Component {
         await axios.delete('http://127.0.0.1:8000/music/'+songId+'/');
         this.getAllSongs();
     }
-
+    
     render(){
         console.log("this.state", this.state);
         return(

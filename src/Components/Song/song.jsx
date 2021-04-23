@@ -2,7 +2,7 @@ import React from 'react';
 import SongDelete from '../Button/button';
 
 const Song = (props) => {
-    return (
+    return(
         <tbody>
             <tr>
                 <td>{props.song.title}</td> 
@@ -14,6 +14,7 @@ const Song = (props) => {
             </tr>
         </tbody>
     );
+    
 }
 
 export default Song;
