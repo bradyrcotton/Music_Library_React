@@ -1,11 +1,12 @@
 import React from 'react';
-import Song from '../Song/song';
 
-function SongFilter(props){
+
+
+const SongFilter = (props) => {
     return(
-        <div className="row row-spacer">
-           <label htmlFor="search">Search</label>
-           <input type="text" value ={props.inputValue} onChange={props.songFilterOnChange}></input>
+        <div className="col-md-12" style={{padding: 0}}>
+            <label htmlFor="search">Search</label>
+            <input type="text" value ={props.inputValue} onChange={props.songFilterOnChange}></input>
         </div>
     )
 }
