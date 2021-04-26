@@ -1,4 +1,4 @@
-import './apps.css';
+import styles from'./apps.css';
 import React, {Component} from 'react';
 import axios from 'axios'
 import Song from '../Components/Song/song'

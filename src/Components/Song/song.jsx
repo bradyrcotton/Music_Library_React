@@ -1,5 +1,6 @@
 import React from 'react';
 import SongDelete from '../Button/button';
+import styles from './song.css'
 
 const Song = (props) => {
     return(
